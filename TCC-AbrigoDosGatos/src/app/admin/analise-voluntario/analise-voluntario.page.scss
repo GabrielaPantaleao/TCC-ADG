@@ -3,22 +3,50 @@
     background:white;
   }
   
-  ion-button{
-    --color: black;
-  }
-  .entrar{
-    --background: rgb(163, 50, 50);
-    --color: white;
-  }
+ 
+ion-header {
+  padding-left: 4em;
+  width: auto;
+}
+
+.menu_component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+.elemento {
+  float: left;
+  color: #333; 
+  text-decoration: none; 
+  padding-right: 20px;
+  display: flex;
+  list-style: none;
+}
+
+.entrar{
+  --background: #A61C35; 
+  --color: white;  
+}
+
+.entrar-component{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-component{
+  display: flex;
+  align-items: center;
+ 
+}
+
   .checkbox{
     margin: 10px;
     --border-radius: 20px;
-    
   }
-  .logo-tcc{
-    height: 85px;
-  }
-  
+
   #id {
     margin-bottom: 1.2em;
   }
@@ -37,9 +65,32 @@
         margin-left: 230px;
         --background: #D9D9D9;
   }
-  .dadosVoluntario{
-    margin-top: 1px;
+
+  // ESPAÇO ENTRE AS INFORMAÇÕES DO USUÁRIO
+  .dataCadVoluntario{
+    margin-top: 5em;
+    margin-bottom: 2em;
   }
+  .dadosVoluntario{
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center; 
+
+  }
+  .nomeVoluntario, .emailVoluntario, .dtNascVoluntario, .telVoluntario, .dispoVoluntario{
+    margin-bottom: 0.55em;
+  }
+
+
+
+
+
+
+
+
+
+
+
   .ion-padding{
     margin-top: 25px;
   }
